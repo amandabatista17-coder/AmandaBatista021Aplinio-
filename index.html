@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -45,6 +44,24 @@
             border-left: 4px solid #4299e1;
             margin: 1rem 0;
         }
+        /* Estilos para deixar o vídeo responsivo */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            padding-top: 30px; 
+            height: 0; 
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 4px;
+        }
         footer {
             text-align: center;
             padding: 1rem;
@@ -86,6 +103,14 @@
                 <li><strong>Estilo Visual:</strong> Mistura animação digital em 3D (para o mundo real) com a belíssima técnica de <em>Stop-Motion</em> em papel (para as cenas do livro).</li>
                 <li><strong>Mensagem:</strong> O filme expande a obra original, mostrando o impacto da história na vida moderna e o medo de esquecer o que é ser criança.</li>
             </ul>
+        </section>
+
+        <section>
+            <h2>Assista ao Conteúdo relacionado</h2>
+            <p>Confira abaixo mais detalhes e análises sobre o universo de O Pequeno Príncipe:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7AP_0GJnLss?si=rYwgtOIvNonvzLXC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
 
